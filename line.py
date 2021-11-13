@@ -12,15 +12,22 @@ hl = 250
 
 img = np.ones((hl,hl),np.uint8)
 
+# x is the x value of the ball's starting point
 x = 2
+# y is the y value of the ball's starting point
 y = 3
+
+# n is the increment of x
 n = 3
+# m is the increment of y
 m = 2
 
+# These four variables represent the state of hitting a wall.
 ust = 0
 alt = 0
 sag = 0
 sol = 0
+
 while True:
   
     if x <= 0:
