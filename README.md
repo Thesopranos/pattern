@@ -1,7 +1,13 @@
 # pattern
 A ball going in one direction bounces off the walls to create a pattern with opencv
-Usage: python line.py [options]
-Example: python line.py -s 500 -x 20 -y 3 --xIncreasing 2 --yIncreasing 3
+## Usage
+```
+python line.py [options]
+```
+## Example
+```
+python line.py -s 500 -x 20 -y 3 --xIncreasing 2 --yIncreasing 3
+```
 ## Options
 ```
 -size or -s: size of the window
