@@ -9,6 +9,10 @@ python line.py [options]
 ```
 python line.py -s 500 -x 20 -y 3 --xIncreasing 2 --yIncreasing 3
 ```
+or
+```
+python line.py
+```
 ## Options
 ```
 -size or -s: size of the window
