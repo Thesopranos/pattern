@@ -1,6 +1,6 @@
 # pattern
 A ball going in one direction bounces off the walls to create a pattern with opencv
-![img](https://imgur.com/a/jaD0C39)
+![img](https://i.imgur.com/rAsmIMN.png)
 ## Usage
 ```
 python line.py [options]
