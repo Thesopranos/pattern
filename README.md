@@ -1,6 +1,11 @@
 # pattern
 A ball going in one direction bounces off the walls to create a pattern with opencv
-
-If you want to change the direction of the ball, you can swap n and m because x and y will change with the increment of n and m.
-
-If you make n and m the same, it will constantly go back and forth between the two vertices because the increments are the same.
+Usage: python line.py [options]
+Example: python line.py -s 500 -x 20 -y 3 --xIncreasing 2 --yIncreasing 3
+## Options
+-size or -s: size of the window
+-x: x coordinate of the ball
+-y: y coordinate of the ball
+--xIncreasing or xI: x coordinate of the ball will increase by this value
+--yIncreasing or yI: y coordinate of the ball will increase by this value
+--help or -h: show this help message and exit
