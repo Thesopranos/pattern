@@ -26,27 +26,24 @@ for i in sys.argv:
         aRRAYH = int(sys.argv[sys.argv.index(i)+1])
     elif i == "-s":
         aRRAYH = int(sys.argv[sys.argv.index(i)+1])
-    elif i == "-x":
+        
+    if i == "-x":
         ball["x"] = int(sys.argv[sys.argv.index(i)+1])
-    elif i == "-y":
+        
+    if i == "-y":
         ball["y"] = int(sys.argv[sys.argv.index(i)+1])
-    elif i == "--xIncreasing":
+        
+    if i == "--xIncreasing":
         ball["xIncreasing"] = int(sys.argv[sys.argv.index(i)+1])
     elif i == "-xI":
         ball["xIncreasing"] = int(sys.argv[sys.argv.index(i)+1])
-    elif i == "--yIncreasing":
+        
+    if i == "--yIncreasing":
         ball["yIncreasing"] = int(sys.argv[sys.argv.index(i)+1])
     elif i == "-yI":
         ball["yIncreasing"] = int(sys.argv[sys.argv.index(i)+1])
-    elif i == "--updown":
-        ball["updown"] = sys.argv[sys.argv.index(i)+1]
-    elif i == "-uD":
-        ball["updown"] = sys.argv[sys.argv.index(i)+1]
-    elif i == "--leftright":
-        ball["leftright"] = sys.argv[sys.argv.index(i)+1]
-    elif i == "-lR":
-        ball["leftright"] = sys.argv[sys.argv.index(i)+1]
-    elif i == "--help" or i == "-h":
+        
+    if i == "--help" or i == "-h":
         print("Usage: python line.py [options]")
         print("Example: python line.py -s 500 -x 20 -y 3 --xIncreasing 2 --yIncreasing 3")
         print("Options:")
